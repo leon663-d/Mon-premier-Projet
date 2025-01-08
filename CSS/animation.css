@@ -1,0 +1,47 @@
+a:hover {
+    background-color: yellow;
+    color: white;
+    transform: scale(1.2);
+    translate: scale(x);
+    transition-duration: 2s;
+  
+    transition: transform 5s;
+    
+
+
+}
+
+.imageIcon {
+    width: 30px;
+    
+}
+
+.imageIcon:hover {
+    transform: rotate(360deg);
+    transition: transform 3s linear ;
+}
+
+
+.btn-load:after {
+    content: " ↴";
+}
+
+
+.progress-bar {
+    transform: scaleX(0);
+    transform-origin: 0%;
+}
+
+.btn-load:active + .progress > .progress-bar {
+    transform: scaleX(1);
+    transition: transform 2000ms;
+}
+
+
+
+.btn-load:hover {
+    background-color: orange;
+    color: black;
+    transform: scale(1.4); 
+    transition: transform 1s linear ;
+} 
